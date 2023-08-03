@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="tic.css">
+    <script src="tac.js"></script>
+</head>
+<body>
+    <center>
+        <div class="title">
+            <h1>TIC TAC TOE</h1>
+        </div>
+        <div class="scoreBoard">
+           <div class="scoreCell">
+                <div class="subCell1">X</div>
+                <div id="scoreCount1" class="subCell2">0</div>
+           </div>
+           <div class="scoreCell">
+                <div class="subCell1">O</div>
+                <div id="scoreCount2" class="subCell2">0</div>
+           </div>
+        </div>
+        <div class="turnName">
+            <div class="turnName1">TURN</div>
+            <div class="turnName2" id="shitfTurn">X Turn</div>
+        </div>
+       <div class="board">
+        <div class="cell" onclick="game1()" id="box1" class="cell1"></div>
+        <div class="cell" onclick="game2()" id="box2" class="cell2"></div>
+        <div class="cell" onclick="game3()" id="box3" ></div>
+        <div class="cell" onclick="game4()" id="box4" ></div>
+        <div class="cell" onclick="game5()" id="box5" ></div>
+        <div class="cell" onclick="game6()" id="box6" ></div>
+        <div class="cell" onclick="game7()" id="box7" ></div>
+        <div class="cell" onclick="game8()" id="box8" ></div>
+        <div class="cell" onclick="game9()" id="box9" ></div>
+       </div>
+       <div>
+        <div id="result" class="results"></div>
+        <button onclick="restart()" class="button">RESET GAME</button>
+       </div>
+       <!-- <div class="winning-message">
+            <div id="result"></div>
+            <button onclick="contin()" class="button">CONTINUE</button>
+       </div> -->
+    </center>
+</body>
+</html>
